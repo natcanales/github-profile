@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/bgforest.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.my-face {
+    width: auto;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.hero {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 4.6em;
+    margin: 0.3em 0;
+}
+
+.hero p {
+    font-size: 2em;
+    padding: 0 3em 0.2em;
+    text-align: center;
+    font-style: italic;
+}
+
+.hero figure,
+.hero h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.transparent {
+    background-color: rgba(136, 136, 136, 0.5);
+}
+
+.projects {
+    padding: 0 3em;
+    border-top: 2px solid white;
+    padding-bottom: 6em;
+}
+
+.projects h2 {
+    padding: 1em 0;
+    text-align: center;
+    font-size: 3em;
+    font-style: italic;
+}
+
+.project-card {
+    padding-top: 2em;
+    overflow-y: auto;
+}
+
+.project-card:hover {
+    background-color: rgba(255, 255, 255, 0.418);
+}
+
+.project-card:hover * {
+    text-decoration: none;
+    color: white;
+}
+
+.project-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 580px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.project-article img {
+    width: 100%;
+    height: 275px;
+    margin: auto;
+    object-fit: contain;
+}
+
+.project-article h3 {
+    font-size: 2em;
+}
+
+.shadowed {
+    -webkit-filter: drop-shadow(0px 0px 5px #eee);
+    filter: drop-shadow(0px 0px 5px #eee);
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid white;
+    padding: 4em 0 3em;
+}
+
+.contact-data h2 {
+    font-size: 3.5em;
+    font-style: italic;
+}
+
+.contact-data p {
+    font-size: 1.7em;
+}
+
+.laptop img{
+    max-width: 300px;
+}
